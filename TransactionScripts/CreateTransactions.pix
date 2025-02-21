@@ -243,7 +243,7 @@
                           <PropertyValue z:Id="i30">
                             <PropertyName>Value</PropertyName>
                             <_dataType>Expression</_dataType>
-                            <_expression>"postgres"</_expression>
+                            <_expression>$"{dict_config["Credential_login"]}"</_expression>
                             <_screenShotBase64 i:nil="true" />
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -273,7 +273,7 @@
                           <PropertyValue z:Id="i33">
                             <PropertyName>Value</PropertyName>
                             <_dataType>Expression</_dataType>
-                            <_expression>"123458123458Bz"</_expression>
+                            <_expression>dict_secureData["Credential_passwd"]</_expression>
                             <_screenShotBase64 i:nil="true" />
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
